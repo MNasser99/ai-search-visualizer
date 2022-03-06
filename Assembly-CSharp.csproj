@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E7191865-117C-50DA-2BFB-728DCCEAB852}</ProjectGuid>
+    <ProjectGuid>{2F8BFA2D-69D1-6D3E-DCAE-7ECC29313EE3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,9 +65,9 @@
     <Compile Include="Assets\Unused Scripts\QueueFrontier.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
     <Compile Include="Assets\Scripts\MazePrinter.cs" />
+    <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\Frontier.cs" />
     <Compile Include="Assets\Scripts\Path.cs" />
-    <Compile Include="Assets\Scripts\MenuManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

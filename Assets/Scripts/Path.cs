@@ -12,7 +12,7 @@ public class Path : MonoBehaviour
 
     SpriteRenderer spriteRenderer;
 
-    static bool isAStar;
+    public static bool isAStar;
     int score;
     int steps;
 

@@ -136,6 +136,15 @@ public class Searcher : MonoBehaviour
             }
         }
 
+        if (algorithmDropdown.value != 3)
+        {
+            Path.isAStar = false;
+        }
+        else
+        {
+            Path.isAStar = true;
+        }
+
         frontier = new Frontier(algorithmDropdown.value);
         PrintStateScores(algorithmDropdown.value);
 
